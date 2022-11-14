@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">FavFood</string>
+    <string name="app_name">favFood</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="create_account">Create Account</string>
+    <string name="desc_ratefood_logo">FaveFood Logo</string>
+    <string name="email_password_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="email_password_title_text">Email and Password</string>
+    <string name="firebase_status_fmt">Firebase UID: %s</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="reload">Reload</string>
+    <string name="sign_in">Login to App</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="verify_email">Verify</string>
+    <string name="api_key">AIzaSyD7twXWnENqukvKDGqHr22SDkiks5r1VU4</string>
+    <string name="google_maps_key">AIzaSyD7twXWnENqukvKDGqHr22SDkiks5r1VU4</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">AIzaSyDmtOtpOU02gwRJFM_3R6r-GyLgxKShv5g</string>
+    <string name="back4app_client_key">AIzaSyDmtOtpOU02gwRJFM_3R6r-GyLgxKShv5g</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="without_login"><u>or continue without login</u></string>
+    <string name="snacks_button_text">snacks</string>
+    <string name="coffee_button_text">coffee</string>
+    <string name="on_my_way_button_text">on my way</string>
+    <string name="near_me_button_text">near me</string>
+    <string name="forgot_password_text"><u>forgot password?</u></string>
+    <string name="goto_maps">Goto Maps</string>
+
 </resources>
