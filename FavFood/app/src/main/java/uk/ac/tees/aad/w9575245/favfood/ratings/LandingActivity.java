@@ -29,9 +29,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import uk.ac.tees.aad.19575245.favfood.R;
-import uk.ac.tees.aad.19575245.favfood.ratings.model.LocationInfo;
-import uk.ac.tees.aad.19575245.favfood.ratings.model.TempInfo;
+import uk.ac.tees.aad.w9575245.favfood.R;
+import uk.ac.tees.aad.w9575245.favfood.ratings.model.LocationInfo;
+import uk.ac.tees.aad.w9575245.favfood.ratings.model.TempInfo;
 
 public class LandingActivity extends AppCompatActivity {
 

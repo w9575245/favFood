@@ -11,8 +11,8 @@ import com.squareup.picasso.Picasso;
 
 import java.text.DecimalFormat;
 
-import uk.ac.tees.aad.19575245.favfood.R;
-import uk.ac.tees.aad.19575245.favfood.ratings.model.LocationInfo;
+import uk.ac.tees.aad.w9575245.favfood.R;
+import uk.ac.tees.aad.w9575245.favfood.ratings.model.LocationInfo;
 
 public class CustomInfoWindowAdapter implements GoogleMap.InfoWindowAdapter {
 
