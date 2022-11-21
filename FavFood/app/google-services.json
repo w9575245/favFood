@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "309969548870",
+    "project_id": "favfood-87aa9",
+    "storage_bucket": "favfood-87aa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309969548870:android:1d146b1e6b0f60add1fc47",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.aad.w9575245.favfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309969548870-g7o6fkshi9rnhlgssto9vlhuun5mqdma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBszY8Fb-JwwobHawdD6jw00AqaZUJTPVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309969548870-g7o6fkshi9rnhlgssto9vlhuun5mqdma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

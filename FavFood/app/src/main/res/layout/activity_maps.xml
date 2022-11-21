@@ -8,8 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".LoginActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin">
 
     <fragment
         android:id="@+id/map"
@@ -21,14 +20,13 @@
         app:layout_constraintBottom_toTopOf="@+id/lowPriceCheckBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mapHeader"
-        tools:context=".com.example.myapplication.MapsActivity" />
+        app:layout_constraintTop_toBottomOf="@+id/mapHeader" />
 
     <TextView
         android:id="@+id/mapHeader"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Lorem ipsum dolor sit amet"
+        android:text="Fav Foods "
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,6 +88,8 @@
         android:layout_marginStart="12dp"
         android:layout_marginBottom="16dp"
         android:inputType="textCapSentences"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         android:text="1 mile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/radiusBar" />

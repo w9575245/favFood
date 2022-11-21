@@ -47,26 +47,6 @@ public class LandingActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 
-        MapView mapView = findViewById(R.id.mapView);
-        mapView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(final View v) {
-                onSearch(v);
-                new CountDownTimer(2000, 1000) {
-                    @Override
-                    public void onTick(long l) {
-                        Snackbar.make(v,  "Loading", Snackbar.LENGTH_SHORT).show();
-                    }
-
-                    @Override
-                    public void onFinish() {
-                        Intent intent = new Intent(v.getContext(), MapsActivity.class);
-                        v.getContext().startActivity(intent);
-                    }
-                }.start();
-            }
-        });
-
         Button pubButton = findViewById(R.id.pubs);
         pubButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,7 +69,7 @@ public class LandingActivity extends AppCompatActivity {
             }
         });
 
-        Button restaurants = findViewById(R.id.restaurents);
+        Button restaurants = findViewById(R.id.restaurants);
         restaurants.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {

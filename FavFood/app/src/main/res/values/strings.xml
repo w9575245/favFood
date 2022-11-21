@@ -2,7 +2,7 @@
     <string name="app_name">favFood</string>
     <string name="auth_failed">Authentication failed</string>
     <string name="create_account">Create Account</string>
-    <string name="desc_ratefood_logo">FaveFood Logo</string>
+    <string name="desc_favFood_logo">FaveFood Logo</string>
     <string name="email_password_status_fmt">Email User: %1$s (verified: %2$b)</string>
     <string name="email_password_title_text">Email and Password</string>
     <string name="firebase_status_fmt">Firebase UID: %s</string>
@@ -14,8 +14,8 @@
     <string name="signed_in">Signed In</string>
     <string name="signed_out">Signed Out</string>
     <string name="verify_email">Verify</string>
-    <string name="api_key">AIzaSyD7twXWnENqukvKDGqHr22SDkiks5r1VU4</string>
-    <string name="google_maps_key">AIzaSyD7twXWnENqukvKDGqHr22SDkiks5r1VU4</string>
+    <string name="api_key">AIzaSyDI9T9raUWpkex25fBqYejYYPhAf3VuSF4</string>
+    <string name="google_maps_key">AIzaSyDI9T9raUWpkex25fBqYejYYPhAf3VuSF4</string>
 
     <string name="back4app_server_url">https://parseapi.back4app.com/</string>
     <string name="back4app_app_id">AIzaSyDmtOtpOU02gwRJFM_3R6r-GyLgxKShv5g</string>
