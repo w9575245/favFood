@@ -6,6 +6,8 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import uk.ac.tees.aad.w9575245.favfood.login.EmailPasswordActivity;
+
 public class SplashScreen extends AppCompatActivity {
 
     @Override

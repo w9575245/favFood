@@ -1,4 +1,4 @@
-package uk.ac.tees.aad.w9575245.favfood;
+package uk.ac.tees.aad.w9575245.favfood.login;
 
 
 import android.content.Intent;
@@ -18,6 +18,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import uk.ac.tees.aad.w9575245.favfood.BaseActivity;
+import uk.ac.tees.aad.w9575245.favfood.R;
 import uk.ac.tees.aad.w9575245.favfood.ratings.LandingActivity;
 
 public class EmailPasswordActivity extends BaseActivity implements
