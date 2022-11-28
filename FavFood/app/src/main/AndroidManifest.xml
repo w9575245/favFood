@@ -38,7 +38,7 @@
             android:name=".BaseActivity"
             android:exported="true" />
         <activity
-            android:name=".EmailPasswordActivity"
+            android:name=".login.EmailPasswordActivity"
             android:exported="true" >
 
         </activity>
