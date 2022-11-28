@@ -54,10 +54,7 @@ public class LocationTrack extends Service implements LocationListener {
                 Toast.makeText(mContext, "No Service Provider is available", Toast.LENGTH_SHORT).show();
             } else {
                 this.canGetLocation = true;
-
-                // if GPS Enabled get lat/long using GPS Services
                 if (checkGPS) {
-
                     if (ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                         ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_COARSE_LOCATION);
                         ActivityCompat.requestPermissions((Activity) mContext,new String[]{Manifest.permission.ACCESS_COARSE_LOCATION,Manifest.permission.ACCESS_FINE_LOCATION}, 2000);
@@ -85,6 +82,32 @@ public class LocationTrack extends Service implements LocationListener {
         return loc;
     }
 
+    public void checkPermissions(){
+
+        if (ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.checkSelfPermission(mContext, Manifest.permission.ACCESS_COARSE_LOCATION);
+            ActivityCompat.requestPermissions((Activity) mContext,new String[]{Manifest.permission.ACCESS_COARSE_LOCATION,Manifest.permission.ACCESS_FINE_LOCATION}, 2000);
+        }
+    }
+
+    public void showSettingsAlert() {
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(mContext);
+        alertDialog.setTitle("GPS is not Enabled!");
+        alertDialog.setMessage("Do you want to turn on GPS?");
+        alertDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+                mContext.startActivity(intent);
+            }
+        });
+        alertDialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+        alertDialog.show();
+    }
+
     public double getLongitude() {
         if (loc != null) {
             longitude = loc.getLongitude();
@@ -103,29 +126,6 @@ public class LocationTrack extends Service implements LocationListener {
         return this.canGetLocation;
     }
 
-    public void showSettingsAlert() {
-        AlertDialog.Builder alertDialog = new AlertDialog.Builder(mContext);
-
-        alertDialog.setTitle("GPS is not Enabled!");
-
-        alertDialog.setMessage("Do you want to turn on GPS?");
-
-
-        alertDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int which) {
-                Intent intent = new Intent(Settings.ACTION_LOCATION_SOURCE_SETTINGS);
-                mContext.startActivity(intent);
-            }
-        });
-
-
-        alertDialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.cancel();
-            }
-        });
-        alertDialog.show();
-    }
 
     @Override
     public IBinder onBind(Intent intent) {
@@ -149,6 +149,6 @@ public class LocationTrack extends Service implements LocationListener {
 
     @Override
     public void onProviderDisabled(String s) {
-
+    //Todo
     }
 }
