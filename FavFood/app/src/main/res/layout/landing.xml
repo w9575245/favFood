@@ -16,13 +16,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.63" />
+        app:layout_constraintGuide_percent="0.40" />
 
     <Button
         android:id="@+id/pubs"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Search For Pubs"
+        android:text="@string/search_for_pubs"
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/restaurants"
@@ -35,7 +35,7 @@
         android:id="@+id/restaurants"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:text="Search For Restaurants"
+        android:text="@string/search_for_restaurants"
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"

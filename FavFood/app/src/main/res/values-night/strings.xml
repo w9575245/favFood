@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fav_foods">Fav Foods</string>
+    <string name="now_showing">Now Showing:</string>
+    <string name="_5_miles">5 miles</string>
+    <string name="_10_miles">10 miles</string>
+    <string name="_20_miles">20 miles</string>
+    <string name="pound_single">£</string>
+    <string name="pound_triple">£££+</string>
+    <string name="five_star">5☆</string>
+    <string name="four_star">4☆+</string>
+    <string name="three_star">3☆+</string>
+    <string name="filler_text">filler text</string>
+    <string name="delivery">Delivery</string>
+    <string name="pick_up">Pick-Up</string>
+    <string name="drive_thru">Drive-Thru</string>
+    <string name="dine_in">Dine-In</string>
+    <string name="two_star">2☆+</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="search_for_pubs">Show Pubs Around</string>
+    <string name="search_for_restaurants">Show eatares Around</string>
+</resources>
