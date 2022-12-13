@@ -1,4 +1,4 @@
-package uk.ac.tees.aad.w9575245.favfood.ratings;
+package uk.ac.tees.aad.w9575245.favfood.maps;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -27,8 +27,8 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import uk.ac.tees.aad.w9575245.favfood.R;
-import uk.ac.tees.aad.w9575245.favfood.ratings.model.LocationInfo;
-import uk.ac.tees.aad.w9575245.favfood.ratings.model.TempInfo;
+import uk.ac.tees.aad.w9575245.favfood.maps.model.LocationInfo;
+import uk.ac.tees.aad.w9575245.favfood.maps.model.TempInfo;
 
 
 public class MapsActivity extends FragmentActivity implements GoogleMap.OnInfoWindowClickListener, OnMapReadyCallback, LocationListener {

@@ -34,8 +34,8 @@ import com.google.android.libraries.places.widget.listener.PlaceSelectionListene
 import java.util.Arrays;
 import java.util.Objects;
 
-import uk.ac.tees.aad.w9575245.favfood.ratings.LandingActivity;
-import uk.ac.tees.aad.w9575245.favfood.ratings.MapsActivity;
+import uk.ac.tees.aad.w9575245.favfood.maps.LandingActivity;
+import uk.ac.tees.aad.w9575245.favfood.maps.MapsActivity;
 
 public class HomePage extends AppCompatActivity implements View.OnClickListener{
     PlacesClient placesClient = null;

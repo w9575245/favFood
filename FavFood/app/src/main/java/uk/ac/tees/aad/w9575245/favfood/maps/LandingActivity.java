@@ -1,4 +1,4 @@
-package uk.ac.tees.aad.w9575245.favfood.ratings;
+package uk.ac.tees.aad.w9575245.favfood.maps;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,7 +17,6 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.google.android.gms.maps.MapView;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONArray;
@@ -30,8 +29,8 @@ import java.util.List;
 import java.util.Map;
 
 import uk.ac.tees.aad.w9575245.favfood.R;
-import uk.ac.tees.aad.w9575245.favfood.ratings.model.LocationInfo;
-import uk.ac.tees.aad.w9575245.favfood.ratings.model.TempInfo;
+import uk.ac.tees.aad.w9575245.favfood.maps.model.LocationInfo;
+import uk.ac.tees.aad.w9575245.favfood.maps.model.TempInfo;
 
 public class LandingActivity extends AppCompatActivity {
 

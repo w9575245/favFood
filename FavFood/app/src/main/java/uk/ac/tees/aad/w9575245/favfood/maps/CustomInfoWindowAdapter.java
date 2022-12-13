@@ -1,4 +1,4 @@
-package uk.ac.tees.aad.w9575245.favfood.ratings;
+package uk.ac.tees.aad.w9575245.favfood.maps;
 
 import android.app.Activity;
 import android.view.View;
@@ -12,7 +12,7 @@ import com.squareup.picasso.Picasso;
 import java.text.DecimalFormat;
 
 import uk.ac.tees.aad.w9575245.favfood.R;
-import uk.ac.tees.aad.w9575245.favfood.ratings.model.LocationInfo;
+import uk.ac.tees.aad.w9575245.favfood.maps.model.LocationInfo;
 
 public class CustomInfoWindowAdapter implements GoogleMap.InfoWindowAdapter {
 

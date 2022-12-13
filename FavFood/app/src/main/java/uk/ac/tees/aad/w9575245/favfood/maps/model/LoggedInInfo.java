@@ -1,4 +1,4 @@
-package uk.ac.tees.aad.w9575245.favfood.ratings.model;
+package uk.ac.tees.aad.w9575245.favfood.maps.model;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

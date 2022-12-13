@@ -1,4 +1,4 @@
-package uk.ac.tees.aad.w9575245.favfood.ratings.model;
+package uk.ac.tees.aad.w9575245.favfood.maps.model;
 
 import java.util.ArrayList;
 import java.util.List;

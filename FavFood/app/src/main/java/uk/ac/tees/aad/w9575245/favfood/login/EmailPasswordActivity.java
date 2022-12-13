@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import uk.ac.tees.aad.w9575245.favfood.BaseActivity;
 import uk.ac.tees.aad.w9575245.favfood.R;
-import uk.ac.tees.aad.w9575245.favfood.ratings.LandingActivity;
+import uk.ac.tees.aad.w9575245.favfood.maps.LandingActivity;
 
 public class EmailPasswordActivity extends BaseActivity implements
         View.OnClickListener {

@@ -1,4 +1,4 @@
-package uk.ac.tees.aad.w9575245.favfood.ratings;
+package uk.ac.tees.aad.w9575245.favfood.maps;
 
 import android.Manifest;
 import android.app.Activity;
